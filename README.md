@@ -7,3 +7,8 @@ git clone https://github.com/danilocutrim/yodlee.git
 <p>npm install</p>
 
 <h5>Testes efetuados no Yodlee Sandbox</h5>
+<h5>Rotas para teste</h5>
+<p>http://localhost:5000/transactions</p>
+<p>http://localhost:5000/transactions_categories</p>
+<p>http://localhost:5000/providers</p>
+<p>http://localhost:5000/accounts</p>
