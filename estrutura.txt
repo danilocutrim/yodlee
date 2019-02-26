@@ -1,0 +1,38 @@
+ { PRIORITY: 'COBRAND',
+       id: 1188,
+       name: 'Fort Bragg FCU',
+       loginUrl:
+        'https://www.fortbraggonline.org/tob/live/usp-core/app/login/consumer',
+       baseUrl: 'http://www.fortbraggfcu.org/',
+       favicon: 'https://yodlee-1.hs.llnwd.net/v1/FAVICON/FAV_1188.PNG',
+       logo: 'https://yodlee-1.hs.llnwd.net/v1/LOGO/LOGO_1188_1_1.PNG',
+       status: 'Supported',
+       authType: 'MFA_CREDENTIALS',
+       languageISOCode: 'EN',
+       primaryLanguageISOCode: 'EN',
+       countryISOCode: 'US',
+       lastModified: '2018-08-23T09:02:00Z',
+       forgetPasswordUrl:
+        'https://www.fortbraggonline.org/tob/live/usp-core/app/login/consumer',
+       isAutoRefreshEnabled: true,
+       capability: [Array],
+       dataset: [Array] },
+
+
+
+newbody.provider[item].id
+
+
+       id: newbody.provider[item].id
+       name: newbody.provider[item].name
+       loginUrl:newbody.provider[item].loginUrl
+       baseUrl: newbody.provider[item].baseUrl
+       favicon: newbody.provider[item].favicon
+       logo: newbody.provider[item].logo
+       status: newbody.provider[item].stautus
+       authType: newbody.provider[item].authType
+       languageISOCode: newbody.provider[item].languageISOCode
+       primaryLanguageISOCode: newbody.provider[item].primaryLanguageISOCode
+       countryISOCode: newbody.provider[item].countryISOCode
+       forgetPasswordUrl: newbody.provider[item].forgetPasswordUrl
+       isAutoRefreshEnabled: newbody.provider[item].isAutoRefreshEnabled

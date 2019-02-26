@@ -18,8 +18,15 @@ module.exports = function(app){
         else{
             app.get('/providers',function(req, res){
                 newbody = JSON.parse(body)
-                res.send(newbody.provider);
-                console.log('Providers request');
+                res.render('home',{newbody: newbody});
+                //res.send(newbody)
+                //for(item in newbody.provider){
+                //console.log(newbody.provider[item].id)}
+                // for(variavel in newbody.provider){
+                //     console.log(newbody.provider[variavel])
+                // }
+                // ;
+                console.log('Provider request')
             })
         };
     })
