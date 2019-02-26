@@ -18,8 +18,6 @@ module.exports = function(app){
       else{
           app.get('/transactions_categories',function(req, res){
               obj = JSON.parse(body);
-              res.send(obj);
-              console.log('Request Categories')
           })
       };
     })

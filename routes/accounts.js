@@ -19,9 +19,6 @@ module.exports = function(app){
             app.get('/accounts', function(req,res){
                 obj = JSON.parse(body);
                 res.render('accounts',{obj: obj})
-                //res.send(obj.account[1].accountName);
-                console.log(obj.account[2])
-
             })
         };
     })

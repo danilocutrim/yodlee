@@ -20,7 +20,6 @@ module.exports = function(app){
           app.get('/transactions', function(req, res){
               obj = JSON.parse(body);
               res.send(obj);
-              console.log('Request Transactions')
           })
       };
     })
