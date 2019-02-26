@@ -17,10 +17,11 @@ module.exports = function(app){
         if (error) throw new Error(error);
         else {
             app.get('/accounts', function(req,res){
-                var obj = JSON.parse(body);
-                res.send(obj.account);
-                console.log('Request accounts')
-                console.log(obj);
+                obj = JSON.parse(body);
+                res.render('accounts',{obj: obj})
+                //res.send(obj.account[1].accountName);
+                console.log(obj.account[2])
+
             })
         };
     })
